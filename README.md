@@ -30,7 +30,7 @@ You may not need to do all these steps as they pertain to general setup of the h
 ## Minio
 Download the binary from [Minio](https://min.io/download#/linux) and put it somewhere you're okay with having large files.
 
-Then run `source rl_coach\env.sh` to get some reasonable defaults for your environemnt. Then run `./minio server data` to create a folder data. 
+Then run `source rl_coach/env.sh` to get some reasonable defaults for your environemnt. Then run `./minio server data` to create a folder data. 
 
 **You will need to create a bucket named `bucket` through the web GUI that minio provides, just open http://127.0.0.1:9000 in your browser.**
 
@@ -39,7 +39,7 @@ defaults expect them to be.
 
 You should source that `env.sh` for every terminal you open when interacting with the deepracer instances because it helps keep everything consistent.
 
-I suggest you `cat rl_coach\env.sh` to see what is being set.
+I suggest you `cat rl_coach/env.sh` to see what is being set.
 
 ## Sagemaker
 I'd suggest you make a python virtual enviornment for this as it will install a fair bit, and with older versions of packages.
